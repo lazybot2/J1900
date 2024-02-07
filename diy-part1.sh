@@ -13,7 +13,4 @@
 # Uncomment a feed source
 
 # Add a feed source
-echo 'src-git passwalls https://github.com/xiaorouji/openwrt-passwall-packages.git' >>feeds.conf.default
-echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
-echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2^073cfa2' >>feeds.conf.default
 
