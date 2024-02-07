@@ -21,7 +21,7 @@ on:
 
 env:
   REPO_URL: https://github.com/lazybot2/lede-buk
-  REPO_BRANCH: master
+  REPO_BRANCH: main
   FEEDS_CONF: mefeeds.conf.default
   CONFIG_FILE: .me
   DIY_P1_SH: diy-part1.sh
