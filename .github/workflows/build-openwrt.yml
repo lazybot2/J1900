@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/lazybot2/lede-buk
   REPO_BRANCH: master
   FEEDS_CONF: mefeeds.conf.default
   CONFIG_FILE: .me
