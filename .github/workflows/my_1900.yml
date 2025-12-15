@@ -7,8 +7,8 @@ on:
 env:
   REPO_URL: https://github.com/lazybot2/lede-buk
   REPO_BRANCH: openwrt23.5
-  FEEDS_CONF: old_feeds.conf.default
-  CONFIG_FILE: .old_config
+  FEEDS_CONF: mefeeds.conf.default
+  CONFIG_FILE: .me
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: false
@@ -217,3 +217,4 @@ jobs:
         delete_tags: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
